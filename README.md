@@ -1,16 +1,33 @@
-# Project Title: A brief name or title of the project.
+# PATIENT RISK CALCULATOR
+# Disease Prediction Model
 
+This project uses a Random Forest classifier to predict diseases based on various patient attributes such as fever, cough, fatigue, and more. The dataset used includes symptoms, vital signs, and treatments provided for different diseases.
 
-# Description: A short overview explaining what the project does and its objectives.
+## Project Overview
 
-# Features: Highlight the key features of your project.
+The goal of this project is to develop a machine learning model that predicts the type of disease based on patient symptoms and characteristics. The model is trained on a labeled dataset and evaluated using various performance metrics like accuracy and confusion matrix.
 
-# Installation Instructions: Step-by-step guide on how to install and run your project.
+## Dataset
 
-# Usage Instructions: How to use the project once it's set up.
+The dataset contains patient information with the following attributes:
+- Disease
+- Fever
+- Cough
+- Fatigue
+- Difficulty Breathing
+- Age
+- Gender
+- Blood Pressure
+- Cholesterol Level
+- Outcome Variable
+- Treatment
 
-# Technologies Used: List the technologies, libraries, or frameworks used.
+The dataset can be found in the `data/` folder as `diseases_with_treatment.csv`.
 
-# Contributing: Guidelines for others who want to contribute.
+## Installation
 
-# License: Specify
+### Prerequisites
+
+1. [Python 3.12](https://www.python.org/downloads/)
+
+### 
